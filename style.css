@@ -9,13 +9,16 @@ aside {
 	position: relative;
 }
 aside h2{
+	top: 5px;
+	left: 87vw;
 	position: absolute;
+	background-color: darkslategray;
 }
 aside img {
 	width: 200px;
 	height: auto;
 	float: right;
-	margin-left: 10vw;
+	margin-left: 0vw;
 	padding: 0;
 }
 main img {
@@ -24,7 +27,7 @@ main img {
 }
 p { 
 	padding: 0;
-	width: 70vw;
+	width: 50vw;
 }
 footer {
   margin-top: 1em;

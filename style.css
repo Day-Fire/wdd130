@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: darkslategray;
+  }
 aside {
 	text-align: center;
 }
@@ -21,12 +27,7 @@ footer {
   border-top: 1px solid #000;
   text-align: center;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: darkslategray;
-}
+
 /* Class Selectors */
 .box {
   width: auto;

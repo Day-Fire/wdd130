@@ -1,2 +1,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
 
+*{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 300px 1fr 2fr;
+	align-items: left;
+	border: 2px steelblue solid;
+	background-color: slateblue;
+}
+
+.logo img {
+	margin: 0;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+}
+
+nav li {
+	flex: 1 1 100%;
+	margin-left: 100px;
+}
+
+nav a {
+	display: block;
+	color: darkblue;
+	padding: 20px;
+	text-decoration: none;
+	background-color: white;
+	height: min-content;
+	margin: auto;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#history{
+	border-radius: 10px;
+	background-color: darkgray;
+}
+#history h2{
+	text-align: center;
+	margin: auto;
+}
+#history div{
+	display: flex;
+	margin-bottom: 20px;
+}
+#history img{
+	border: white 4px solid;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	width: 35vw;
+}
+#history p{
+	text-align: center;
+}
+
+#adventure{
+	border-radius: 10px;
+	background-color: steelblue;
+	margin-bottom: 40;
+}
+
+#adventure div{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+#adventure img{
+	height: 150px;
+	width: auto;
+}
+
+#adventure h2{
+	text-align: center;
+	margin: auto;
+}
+
+figure {
+	border: thin #c0c0c0 solid;
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+	max-width: 220px;
+	margin: auto;
+	margin-bottom: 20px;
+  }
+  
+  figcaption {
+	background-color: #222;
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
+  }
+
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: dimgray;
+}
+footer p{
+	margin-left: auto;
+}
+.sociallinks{
+	margin-left: auto;
+	background-color: dimgray;
+}
+.sociallinks a{
+	background-color: dimgray;
+}
+.sociallinks img{
+	width: 50px;
+	color:white;
+}

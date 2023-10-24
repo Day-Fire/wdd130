@@ -1,0 +1,68 @@
+#info{
+	width: 49vw;
+	background-color: steelblue;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+#info div{
+	display: flex;
+	justify-content: space-around;
+}
+#info iframe{
+	display: block;
+	margin: auto;
+	border: 2px white solid;
+	border-radius: 10px;
+}
+#info p{
+	color: whitesmoke;
+	font-size: large;
+}
+
+#top{
+	display: flex;
+	justify-content: space-between;
+}
+
+#employees{
+	width: 48vw;
+	border-radius: 10px;
+	background-color: slategray;
+	margin-bottom: 40;
+}
+
+#employees div{
+	display: flex;
+	margin-bottom: 40px;
+}
+
+#employees img{
+	height: 150px;
+	width: auto;
+}
+
+#employees h2{
+	text-align: center;
+	margin: auto;
+}
+
+label{
+}
+
+#form{
+	background-color: steelblue;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	margin: 30px;
+	color: white;
+}
+
+#form form{
+	display: grid;
+	max-width: 40vw;
+	margin: auto;
+}
+#form h2{
+	text-align: center;
+	margin: auto;
+}

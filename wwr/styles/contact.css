@@ -1,6 +1,6 @@
 #info{
 	width: 49vw;
-	background-color: steelblue;
+	background: linear-gradient(270deg, steelblue, blue);
 	border-radius: 10px;
 	padding-bottom: 20px;
 }
@@ -27,8 +27,9 @@
 #employees{
 	width: 48vw;
 	border-radius: 10px;
-	background-color: slategray;
+	background: linear-gradient(135deg, grey, rgb(42, 42, 42));
 	margin-bottom: 40;
+	color: white;
 }
 
 #employees div{
@@ -50,11 +51,11 @@ label{
 }
 
 #form{
-	background-color: steelblue;
+	background:linear-gradient(steelblue, lightblue);
 	border-radius: 10px;
 	padding-bottom: 20px;
 	margin: 30px;
-	color: white;
+	color: black;
 }
 
 #form form{
